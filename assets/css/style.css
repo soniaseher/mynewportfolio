@@ -362,9 +362,10 @@ h6,
 
 .custom-navmenu .custom-menu,
 .custom-navmenu .custom-menu li {
-  padding: 0;
+  padding: 10px;
   margin: 0;
   list-style: none;
+  text-align: center;
 }
 
 .custom-navmenu .custom-menu li {
