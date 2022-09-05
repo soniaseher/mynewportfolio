@@ -24,6 +24,7 @@ a {
 a:hover {
   color: #000;
 }
+
 p{
   line-height: 2;
   margin-bottom: 0px;
@@ -415,6 +416,12 @@ h6,
   width: 110px;
 }
 @media (max-width: 780px) {
+  .contact-info{
+    margin-bottom: 15px;
+  }
+  .footer-content{
+    text-align: center;
+  }
   .header-content{
     padding: 0px 40px;
   }
