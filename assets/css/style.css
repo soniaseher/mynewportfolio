@@ -407,10 +407,15 @@ h6,
   padding: 25px 20px;
   width: 100%;
 }
-
+.logo{
+  width: 115px;
+}
 @media (max-width: 780px) {
   .header-content{
     padding: 0px 40px;
+  }
+  .logo{
+    width: 100px;
   }
   #filters{
     display: flex;
