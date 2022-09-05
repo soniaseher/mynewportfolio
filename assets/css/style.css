@@ -404,11 +404,11 @@ h6,
 
 /* Custom Navbar */
 .custom-navbar {
-  padding: 25px 20px;
+  padding: 10px 20px;
   width: 100%;
 }
 .logo{
-  width: 115px;
+  width: 200px;
 }
 @media (max-width: 780px) {
   .header-content{
@@ -422,7 +422,9 @@ h6,
     justify-content: center;
   }
   .filters a{
-    padding: 8px 25px;
+    padding: 10px 20px;
+    background: none;
+    border: 0px;
   }
   .aos-animate h2{
     text-align: center;
