@@ -404,11 +404,22 @@ h6,
 
 /* Custom Navbar */
 .custom-navbar {
-  padding: 25px 0px;
+  padding: 25px 20px;
   width: 100%;
 }
 
 @media (max-width: 780px) {
+  .aos-animate h2{
+    text-align: center;
+    font-size: 40px;
+  }
+  .filters a{
+    text-align: center;
+    margin-left: 10px;
+  }
+  .section{
+    padding: 5rem 0;
+  }
   .custom-navbar>.container {
     padding-right: 0;
     padding-left: 0;
@@ -493,6 +504,7 @@ h6,
 # Footer
 --------------------------------------------------------------*/
 .footer {
+  text-align: center;
   padding: 0 0 4rem 0;
 }
 
