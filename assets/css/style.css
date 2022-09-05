@@ -405,18 +405,18 @@ h6,
 
 /* Custom Navbar */
 .custom-navbar {
-  padding: 10px 20px;
+  padding: 15px 20px;
   width: 100%;
 }
 .logo{
-  width: 200px;
+  width: 110px;
 }
 @media (max-width: 780px) {
   .header-content{
     padding: 0px 40px;
   }
   .logo{
-    width: 200px;
+    width: 110px;
   }
   #filters{
     display: flex;
