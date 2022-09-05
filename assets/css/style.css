@@ -409,6 +409,13 @@ h6,
 }
 
 @media (max-width: 780px) {
+  #filters{
+    display: flex;
+    justify-content: center;
+  }
+  .filters a{
+    padding: 8px 25px;
+  }
   .aos-animate h2{
     text-align: center;
     font-size: 40px;
