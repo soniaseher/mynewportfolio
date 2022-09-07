@@ -13,7 +13,7 @@
  
 body {
   font-family: sans-serif;
-  color: #0d1e2d;
+  color: #2e2e2ed;
 }
 
 a {
@@ -70,7 +70,7 @@ h6,
   content: "";
   position: absolute;
   left: 0px;
-  right: 10px;
+  right: 0px;
   bottom: 0;
   height: 1px;
   background-color: #000;
@@ -84,8 +84,8 @@ h6,
 .filters a.active:before {
   content: "";
   position: absolute;
-  left: 10px;
-  right: 10px;
+  left: 0px;
+  right: 0px;
   bottom: 0;
   height: 1px;
   background-color: #000;
@@ -100,7 +100,7 @@ h6,
   display: block;
   position: relative;
   overflow: hidden;
-  background-color: #f8f9fa;
+  background-color: #f9f9f9;
 }
 
 .item .item-wrap:after {
@@ -202,12 +202,13 @@ h6,
 .readmore {
   display: inline-block;
   border: 1px solid #000;
-  padding: 10px 15px;
+  padding: 10px 20px;
   font-size: 12px;
   text-transform: uppercase;
   color: #000;
   transition: 0.2s all ease;
   font-weight: 700;
+  margin-top: 30px;
 }
 
 .readmore:active,
@@ -242,6 +243,7 @@ h6,
   position: sticky;
   position: -webkit-sticky;
   top: 0;
+  margin-top: 50px;
   /* required */
 }
 
@@ -263,7 +265,7 @@ h6,
 
 .form-control {
   border-radius: 0;
-  background: #f8f9fa;
+  background: #f9f9f9;
   border: 1px solid transparent;
   padding-top: 10px !important;
   padding-bottom: 10px !important;
@@ -363,7 +365,7 @@ h6,
 --------------------------------------------------------------*/
 /* Custom Navmenu */
 .custom-navmenu {
-  background: #0d1e2d;
+  background: #212529;
 }
 
 .custom-navmenu .custom-menu,
@@ -427,6 +429,7 @@ h6,
   .copyright{
     font-size: 12px;
     margin-top: 15px;
+    color: #6d6e6e;
   }
   .footer-content{
     text-align: center;
@@ -445,7 +448,7 @@ h6,
     border: 0px;
   }
   .aos-animate h2{
-    text-align: center;
+    text-align: left;
     font-size: 40px;
   }
   .h1-tile{
@@ -542,6 +545,7 @@ h6,
 # Footer
 --------------------------------------------------------------*/
 .footer {
+  background-color: #f9f9f9;
   text-align: left;
   padding: 70px 0 4rem 0;
 }
@@ -582,10 +586,11 @@ h6,
     font-weight: 700;
 }
 .site-portfolio{
-  background-color: #e2eceb;
+  /* background-color: #e2eceb; */
+  border-top: 1px solid #b7b5b5;
 }
 .blue-color{
-  color: blue;
+  color: rgb(111, 111, 224);
 }
 #filters{
   display: flex;
@@ -594,5 +599,11 @@ h6,
 }
 .logo-text{
   font-weight: 700;
+}
+.contact-info p{
+  font-weight: 600;
+}
+.case-study-banner{
+  margin: 30px 0px;
 }
 /* custom css end */
