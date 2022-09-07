@@ -606,4 +606,7 @@ h6,
 .case-study-banner{
   margin: 30px 0px;
 }
+.section{
+  border-top: 1px solid;
+}
 /* custom css end */
