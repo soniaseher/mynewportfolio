@@ -9,15 +9,25 @@
 # General
 --------------------------------------------------------------*/
  
-@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap');
- 
+@import url('https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
  
 body {
-  font-family: sans-serif;
-  color: #2e2e2e;
+  font-family: 'Chivo', sans-serif;
 }
-
+.navigation .navi{
+  list-style: none;
+  display: flex;
+  margin: 0px;
+}
+.navi li{
+  margin-left: 30px;
+}
+.navi li a{
+  font-size: 18px;
+  font-weight: 600;
+  color: #212529;
+}
 a {
   color: #777;
   text-decoration: none;
@@ -38,13 +48,23 @@ h4,
 h5,
 h6,
 .font-heading {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Chivo', sans-serif;
 }
  
 .section {
-  padding: 5rem 0;
+  padding: 0 0 3rem 0;
 }
-
+.video-src{
+  height: 450px;
+}
+#company-name{
+  background: #b6e3ed;
+    padding: 5px 15px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: #ffffff;
+    font-weight: 600;
+}
 .filters a {
   text-decoration: none;
   color: #000;
@@ -201,14 +221,15 @@ h6,
 
 .readmore {
   display: inline-block;
-  border: 1px solid #000;
+  /* border: 1px solid #000; */
   padding: 10px 20px;
-  font-size: 12px;
+  font-size: 15px;
   text-transform: uppercase;
   color: #000;
   transition: 0.2s all ease;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 30px;
+  background: #abe7f5;
 }
 
 .readmore:active,
@@ -419,7 +440,31 @@ h6,
 .logo{
   width: 110px;
 }
+.h1-tile{
+  font-weight: 900;
+}
+.header-content{
+  background: #abe7f5;
+  padding: 100px;
+  border-radius: 20px;
+}
+.mobile-collapse{
+  background: #abe7f5;
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+}
 @media (max-width: 780px) {
+  .header-content{
+    border-radius: 0px;
+    padding: 50px 40px !important;
+  }
+  .navigation{
+    display: none;
+  }
+  .burger{
+    display: block !important;
+  }
   .header-title{
     font-size: 37px !important;
   }
@@ -477,6 +522,10 @@ h6,
   height: 32px;
   cursor: pointer;
   position: relative;
+  z-index: 5;
+}
+.burger {
+  display: none;
 }
 .about-info{
   font-size: 25px;
@@ -561,7 +610,7 @@ h6,
   width: 50px;
   height: 50px;
   border-radius: 0%;
-  background: #e2eceb;
+  background: #abe7f5;
   position: relative;
   text-align: center;
   color: #0d1e2d;
@@ -584,14 +633,15 @@ h6,
   background-color: #fff;
 }
 .header-title{
-  font-size: 60px;
+  font-size: 38px;
     font-weight: 700;
-    font-family: 'Playfair Display', serif;
+    font-family: 'Chivo', sans-serif;
 }
-.site-portfolio{
-  /* background-color: #e2eceb; */
-  border-top: 1px solid #b7b5b5;
-}
+ .video-item{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+ }
 .blue-color{
   color: rgb(111, 111, 224);
 }
@@ -609,7 +659,7 @@ h6,
 .case-study-banner{
   margin: 30px 0px;
 }
-.section{
+/* .section{
   border-top: 1px solid;
-}
+} */
 /* custom css end */
