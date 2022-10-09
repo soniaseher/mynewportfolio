@@ -392,7 +392,7 @@ h6,
 .custom-navmenu .custom-menu,
 .custom-navmenu .custom-menu li {
   padding: 10px;
-  margin: 0;
+  margin-top: 30px;
   list-style: none;
   text-align: center;
 }
@@ -403,8 +403,9 @@ h6,
 }
 
 .custom-navmenu .custom-menu li a {
-  color: #fff;
+  color: #212529;
   padding: 10px 0 !important;
+  font-weight: 600;
 }
 
 .custom-navmenu .custom-menu li a:hover {
