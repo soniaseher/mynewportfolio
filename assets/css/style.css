@@ -53,7 +53,7 @@ a:hover {
 
 p{
   line-height: 2;
-
+  color: #504d4d;
 }
 h1,
 h2,
@@ -482,7 +482,7 @@ h6,
     padding: 50px 40px !important;
   }
   .data{
-    margin-bottom: 20px !important;
+    margin-bottom: 0px !important;
   }
   .description{
     margin-top: 30px;
