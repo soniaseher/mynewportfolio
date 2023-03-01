@@ -15,20 +15,32 @@
 
 
 body {
-  font-family: 'Chivo', sans-serif;
+ 
+  font-family:'Golos Text', sans-serif;
+
+}
+.after-body-main{
+  background: linear-gradient(104.05deg, rgba(204, 0, 255, 0.15) 0.31%, rgba(235, 73, 219, 0.066) 28.63%, rgba(122, 132, 221, 0.108) 60.87%, rgba(255, 255, 255, 0) 100%);
 }
 .navigation .navi{
   list-style: none;
   display: flex;
   margin: 0px;
 }
+.navbar-des{
+  padding: 0;
+}
 .navi li{
   margin-left: 30px;
 }
 .navi li a{
   font-size: 18px;
-  font-weight: 600;
-  color: #212529;
+  font-weight: 200;
+  color: #6a6969; 
+}
+.navi li a:hover{
+  color: #000;
+  border-bottom: 1px solid;
 }
 a {
   color: #777;
@@ -41,7 +53,7 @@ a:hover {
 
 p{
   line-height: 2;
-  margin-bottom: 0px;
+
 }
 h1,
 h2,
@@ -50,7 +62,7 @@ h4,
 h5,
 h6,
 .font-heading {
-  font-family: 'Chivo', sans-serif;
+  font-family:'Golos Text', sans-serif;
 }
  
 .section {
@@ -119,10 +131,13 @@ h6,
 }
 
 .item .item-wrap {
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
   overflow: hidden;
   background-color: #f9f9f9;
+  border-radius: 20px;
 }
 
 .item .item-wrap:after {
@@ -231,7 +246,7 @@ h6,
   transition: 0.2s all ease;
   font-weight: 600;
   margin-top: 30px;
-  background: #abe7f5;
+  background: #f1f1f1;
 }
 
 .readmore:active,
@@ -444,23 +459,35 @@ h6,
   width: 110px;
 }
 .h1-tile{
-  font-weight: 900;
+  font-weight: 600;
+  font-size: 45px;
+    line-height: 64px;
 }
 .header-content{
-  background: #abe7f5;
-  padding: 100px;
+  /* background: #f1f1f1; */
+  padding: 100px 0px;
   border-radius: 20px;
 }
 .mobile-collapse{
-  background: #abe7f5;
+  background: #f1f1f1;
     position: fixed;
     z-index: 1;
     height: 100%;
 }
+
 @media (max-width: 780px) {
   .header-content{
     border-radius: 0px;
     padding: 50px 40px !important;
+  }
+  .data{
+    margin-bottom: 20px !important;
+  }
+  .description{
+    margin-top: 30px;
+  }
+  .project-card{
+    margin-bottom: 35px !important;
   }
   .navigation{
     display: none;
@@ -477,7 +504,10 @@ h6,
   .copyright{
     font-size: 12px;
     margin-top: 15px;
-    color: #6d6e6e;
+    color: #6a6969;
+  }
+  .copyright p{
+    color: #6a6969;
   }
   .footer-content{
     text-align: center;
@@ -500,7 +530,8 @@ h6,
     font-size: 40px;
   }
   .h1-tile{
-    font-size: 40px;
+    font-size: 26px;
+    line-height: 42px;
   }
   .filters a{
     text-align: center;
@@ -531,7 +562,8 @@ h6,
   display: none;
 }
 .about-info{
-  font-size: 25px;
+  font-size: 18px;
+    color: #6a6969;
 }
 .burger:before,
 .burger span,
@@ -605,15 +637,23 @@ h6,
 }
 
 .footer a {
-  color: #000;
+  color: #6a6969;
 }
-
+    .data{
+      margin-bottom: 50px;
+    }             
+ .Project-read-more{
+  color: #0d6efd;
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 50px;
+ }
 .social a {
   display: inline-block;
   width: 50px;
   height: 50px;
   border-radius: 0%;
-  background: #abe7f5;
+  background: #f1f1f1;
   position: relative;
   text-align: center;
   color: #0d1e2d;
@@ -632,13 +672,13 @@ h6,
 }
 /* custom css start*/
 
-.hero-section{
+/* .hero-section{
   background-color: #fff;
-}
+} */
 .header-title{
   font-size: 38px;
     font-weight: 700;
-    font-family: 'Chivo', sans-serif;
+    font-family:'Golos Text', sans-serif;
 }
  .video-item{
   height: 300px;
@@ -657,7 +697,7 @@ h6,
   font-weight: 700;
 }
 .contact-info p{
-  font-weight: 600;
+  font-weight: 200;
 }
 .case-study-banner{
   margin: 30px 0px;
