@@ -460,9 +460,9 @@ h6,
   width: 110px;
 }
 .h1-tile{
-  font-weight: 600;
-  font-size: 45px;
-    line-height: 64px;
+  font-weight: 400;
+    font-size: 60px;
+    line-height: 74px;
 }
 .header-content{
   /* background: #f1f1f1; */
