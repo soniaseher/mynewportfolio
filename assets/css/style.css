@@ -136,8 +136,9 @@ h6,
   align-items: center;
   position: relative;
   overflow: hidden;
-  background-color: #f9f9f9;
+  background-color: #ffffff3b;
   border-radius: 20px;
+  border: 1px solid white;
 }
 
 .item .item-wrap:after {
