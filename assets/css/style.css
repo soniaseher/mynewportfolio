@@ -99,7 +99,9 @@ h6,
 .filters a:active {
   text-decoration: none;
 }
-
+.project-title{
+  font-weight: 700;
+}
 .filters a:hover:before {
   content: "";
   position: absolute;
